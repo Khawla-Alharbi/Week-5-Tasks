@@ -26,11 +26,11 @@ if($_GET["left"]){
         VALUES ('', '$SData')";}else if($_GET["stop"]){
         $SData=  $_GET["stop"];
         $sql = "INSERT INTO direction (id, data)
-        VALUES ('', '$SData')";}else if($_GET["down"]){
-        $SData=  $_GET["down"];
+        VALUES ('', '$SData')";}else if($_GET["back"]){
+        $SData=  $_GET["back"];
         $sql = "INSERT INTO direction (id, data)
-        VALUES ('', '$SData')";}else if($_GET["up"]){
-        $SData=  $_GET["up"];
+        VALUES ('', '$SData')";}else if($_GET["forward"]){
+        $SData=  $_GET["forward"];
         $sql = "INSERT INTO direction (id, data)
         VALUES ('', '$SData')";}
 
