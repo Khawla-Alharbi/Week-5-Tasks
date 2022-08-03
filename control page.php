@@ -8,7 +8,7 @@
 
 <form action="dbCon.php" method="GET">
         <div id="topd">
-            <button value="u" name="up">أعلى</button>
+            <button value="f" name="forward">أمام</button>
         </div>
         <div id="lr">
         <button value="r" name="right">يمين</button>
@@ -16,7 +16,7 @@
         <button value="l" name ="left">يسار</button>
         </div>
         <div id="btm">
-            <button value="d" name="down" >أسفل</button>
+            <button value="b" name="back" >خلف</button>
             </div>
            
           
