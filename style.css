@@ -1,0 +1,51 @@
+html{
+  background-color: white;
+  text-align: center;
+  color:black;
+  padding-top: 2%;
+}
+#topd{
+float:top;
+}
+#right{
+float:right;
+}
+#left{
+  float:left;
+  }
+
+#topd{
+  margin-top: 5em;
+}  
+  #lr{
+   width: 30%;
+   height:30% ;
+  margin-top: 0.5%;
+  margin-right: 35%;
+  }
+  #btm{
+    margin-top: 0.5%;
+  }
+
+  button {
+    float: center;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 1em;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: 4px solid #4250f3;
+    border-radius: 50%;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+    color: #4250f3;
+    /*margin-bottom: 4em;*/
+    
+  }
+  button:hover,
+  button:focus {
+    background: #4250f3;
+    color: #fff;
+  }
+
